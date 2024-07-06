@@ -2058,7 +2058,9 @@
 	.mad-calendar-element {
 		background-size: contain;
 	}
-
+    .row:not(.no-gutters) .col-pd-right {
+	    padding-right: 0;
+	}
 	.mad-section.no-pb.mad-img-section .mad-img-content:not(.mobile-top) {
 		padding-top: 6rem;
 	}

@@ -58,7 +58,7 @@
 
 
 
-                  <li class="menu-item menu-item-has-children mega-menu">
+                  <li class="menu-item menu-item-has-children mega-menu <?php echo ($CURRENT_PAGE == "Services") ? "current-menu-item" : ""; ?>">
                     <a href="#">Services</a>
                     <!--================ Sub Menu ================-->
                     <ul class="sub-menu">
@@ -69,7 +69,7 @@
                         <!--================ Sub Menu ================-->
                         <ul class="sub-menu">
                           <li class="menu-item">
-                            <a href="/services/consultation.php">Consultation en personne  </a>
+                            <a href="/services/consultation.php">Consultation en personne</a>
                           </li>
                           <li class="menu-item">
                             <a href="/services/consultation.php">Consultation par téléphone</a>
