@@ -6744,12 +6744,17 @@ p.notice {
 }
 
 /* ----------------------------------------
-        Forms
+        Contact
     ---------------------------------------- */
 
 .clinic-info.row {
-    margin-bottom: 4rem;
+    max-width: 1060px;
+    margin: 0 auto 3rem;
 }
+.clinic-info.row .col-lg-4 {
+    padding: 0 1.8rem;
+}
+
 .clinic-info h6,
 .contact-info h5 {
     margin-top: 2rem;
