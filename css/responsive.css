@@ -760,7 +760,7 @@
 	.mad-entities.with-date.type-2.item-col-3 .mad-entity .video_wrapper_full.image-2.videoWrapperActive {
 		padding-top: 33rem;
 	}
-
+    .mad-pre-header .container-fluid, [class*="mad-header-section--sticky"] .container-fluid,
 	.container-fluid, .mad-section--stretched-content, .footer-box .mad-footer .container-fluid {
 		padding-left: 1rem;
 		padding-right: 1rem;
@@ -1738,6 +1738,9 @@
     .mad-title-wrap p {
     	font-size: 1rem;
     }
+    .mad-title-wrap p.first-paragraph {
+		font-size: 1.3rem;
+    }
 	.owl-carousel.mad-grid--cols-6 .owl-dots, .owl-carousel.mad-grid--cols-2 .owl-dots {
 		display: none;
 	}
@@ -1858,20 +1861,20 @@
 	}
 
 	.mad-content:not(.no-pd), .mad-footer, .mad-section:not(.no-pd):not(.no-pt):not(.no-pb), .mad-entities.single-entity.owl-carousel .mad-entity, .mad-half-full .mad-half-content .mad-img-content {
-		padding-top: 6rem;
-		padding-bottom: 6rem;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
 	}
 
 	.section-with-img.mad-section {
-		padding-bottom: 6rem !important;
+		padding-bottom: 3rem !important;
 	}
 
 	.mad-section.no-pt {
-		padding-bottom: 6rem;
+		padding-bottom: 3rem;
 	}
 
 	.mad-section.no-pb {
-		padding-top: 6rem;
+		padding-top: 3rem;
 	}
 
 	.mad-section.pt-size-2.pt-lg-auto {
@@ -1926,8 +1929,12 @@
 	}
 
 	[class*="mad-header-section--sticky"] {
-		padding-top: 1.375rem;
-		padding-bottom: 1.375rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.mad-logo {
+		width: 200px;
 	}
 
 	.mad-lang .mad-dropdown-element {
@@ -1952,9 +1959,39 @@
 	}
 
 	.mad-breadcrumb.with-bg-img {
-		padding-top: 7rem;
-		padding-bottom: 7rem;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		position: relative;
 	}
+	
+    .mad-breadcrumb.with-bg-img:after {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    opacity: 0.5;
+	    z-index: 1;
+    }
+    .mad-breadcrumb.with-bg-img .container {
+    	position: relative;
+    	z-index: 5;
+    }
+	.mad-breadcrumb.with-bg-img.dark:after {
+	    background-color: var(--color-secondary);
+	}
+	.mad-breadcrumb.with-bg-img.light:after {
+	    background-color: var(--color-neutral-5);
+	}
+	.mad-section.medium-size.bg-light-blue {
+		padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+	}
+
+	.mad-pt-item .btm-action {
+		width: calc(100% - 2rem);
+    }
 
 	table .mad-products.mad-product-small .mad-product {
 		flex-direction: column;
@@ -2062,7 +2099,7 @@
 	    padding-right: 0;
 	}
 	.mad-section.no-pb.mad-img-section .mad-img-content:not(.mobile-top) {
-		padding-top: 6rem;
+		padding-top: 3rem;
 	}
 
 	.mad-video-wrapper {
