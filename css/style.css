@@ -6748,11 +6748,11 @@ p.notice {
     ---------------------------------------- */
 
 .clinic-info.row {
-    max-width: 1060px;
     margin: 0 auto 3rem;
+    justify-content: center;
 }
-.clinic-info.row .col-lg-4 {
-    padding: 0 1.8rem;
+.clinic-info.row>*{
+    padding: 0 1.5rem;
 }
 
 .clinic-info h6,
