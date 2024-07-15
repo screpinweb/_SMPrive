@@ -190,6 +190,9 @@
 
         </div>
       </div>
+
+       <?php /*
+      <!--================ HOW IT WORKS ================-->
         <div class="mad-section medium-size">
             <div class="container-fluid">
               <div class="mad-title-wrap align-center">
@@ -262,8 +265,9 @@
             </div>
         </div>
       </div>
-
+     */ ?>
      <?php /*
+      <!--================ FAQ ================-->
       <div class="mad-section with-bg-img fixed" data-bg-image-src="../images/bg-stetoscope.jpg">
           <div class="container">
               <div class="mad-box-element questions">
