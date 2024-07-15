@@ -31,6 +31,11 @@
                 </div>
     
 
+
+
+
+
+
                 <div class="mad-entities align-center type-2 item-col-2 products">
 
                       <!--================ Product ================-->
@@ -61,6 +66,125 @@
                           </div>
                         </article>
                       </div>
+
+                </div>
+
+                <div class="mad-title-wrap pd-top align-center">
+                  <h4>Services additionnels disponible sur place</h4>
+                </div>
+
+                <div class="mad-entities align-center type-2 item-col-3 products">
+
+                      <!--================ Product ================-->
+                      <div class="mad-col wide-gaps">
+                        <article class="mad-entity mad-pt-item">
+                          <h5 class="mad-pt-header">Suture</h5>
+                          <div class="mad-pt-content mad-entity-content">
+                            <div class="mad-pt-price">
+                              <span class="price">200<sup>.00</sup></span> <small>taxes incluses</small>
+                            </div>
+                            <ul class="list-group">
+                                <li class="checkmark"> Consultation nécessaire avec un professionnel de la santé</li>
+                                <li class="checkmark"> Inclus le retrait de points de suture</li>
+                            </ul>
+                            <div class="btm-action">
+                              <a href="tel:18339212783" class="btn btn-primary">APPELEZ-NOUS<br>1 (833) 921-2783</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+
+                      <!--================ Product ================-->
+                      <div class="mad-col wide-gaps">
+                        <article class="mad-entity mad-pt-item">
+                          <h5 class="mad-pt-header">Drainage d’abcès</h5>
+                          <div class="mad-pt-content mad-entity-content">
+                            <div class="mad-pt-price">
+                              <span class="price">200<sup>.00</sup></span> <small>taxes incluses</small>
+                            </div>
+                            <ul class="list-group">
+                                <li class="checkmark"> Consultation nécessaire avec un professionnel de la santé</li>
+                            </ul>
+                            <div class="btm-action">
+                              <a href="tel:18339212783" class="btn btn-primary">APPELEZ-NOUS<br>1 (833) 921-2783</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+
+                      <!--================ Product ================-->
+                      <div class="mad-col wide-gaps">
+                        <article class="mad-entity mad-pt-item">
+                          <h5 class="mad-pt-header">Retrait de stérilet</h5>
+                          <div class="mad-pt-content mad-entity-content">
+                            <div class="mad-pt-price">
+                              <span class="price">250<sup>.00</sup></span> <small>taxes incluses</small>
+                            </div>
+                            <ul class="list-group">
+                                <li class="checkmark">Inclus la consultation avec la professionnelle de la santé</li>
+                            </ul>
+                            <div class="btm-action">
+                              <a href="#" class="btn btn-primary btest select-package">Réservez Maintenant</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+
+                      <!--================ Product ================-->
+                      <div class="mad-col wide-gaps">
+                        <article class="mad-entity mad-pt-item">
+                          <h5 class="mad-pt-header">Exérèse de kystes</h5>
+                          <div class="mad-pt-content mad-entity-content">
+                            <div class="mad-pt-price">
+                              <span class="price">200<sup>.00</sup></span> <small>taxes incluses</small>
+                            </div>
+                            <ul class="list-group">
+                                <li class="checkmark">Consultation nécessaire avec un professionnel de la santé</li>
+                            </ul>
+                            <div class="btm-action">
+                              <a href="tel:18339212783" class="btn btn-primary">APPELEZ-NOUS<br>1 (833) 921-2783</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+
+                      <!--================ Product ================-->
+                      <div class="mad-col wide-gaps">
+                        <article class="mad-entity mad-pt-item">
+                          <h5 class="mad-pt-header">Retrait de <br>points de suture</h5>
+                          <div class="mad-pt-content mad-entity-content">
+                            <div class="mad-pt-price">
+                              <span class="price">50<sup>.00</sup></span> <small>taxes incluses</small>
+                            </div>
+                            <ul class="list-group">
+                                <li class="checkmark">Consultation nécessaire avec un professionnel de la santé</li>
+                            </ul>
+                            <div class="btm-action">
+                              <a href="#" class="btn btn-primary btest select-package">Réservez Maintenant</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      
+                      <!--================ Product ================-->
+                      <div class="mad-col wide-gaps">
+                        <article class="mad-entity mad-pt-item">
+                          <h5 class="mad-pt-header">Électrocardiogramme</h5>
+                          <div class="mad-pt-content mad-entity-content">
+                            <div class="mad-pt-price">
+                              <span class="price">60<sup>.00</sup></span> <small>taxes incluses</small>
+                            </div>
+                            <ul class="list-group">
+                                <li class="checkmark">Consultation nécessaire avec un professionnel de la santé</li>
+                            </ul>
+                            <div class="btm-action">
+                              <a href="tel:18339212783" class="btn btn-primary">APPELEZ-NOUS<br>1 (833) 921-2783</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      
+                      
 
                 </div>
 

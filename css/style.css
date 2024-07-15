@@ -4382,11 +4382,12 @@ table.mad-table--vertical tr th {
     background: var(--color-accent);
     color: var(--color-neutral-0);
     font-family: 'Barlow', sans-serif;
-    font-size: 2.25rem;
+    font-size: 2.1rem;
     line-height: 2.15rem;
     text-align: center;
     padding: 1.3rem 1rem 1.3rem;
     transition: .5s ease;
+    min-height: 7rem;
     border-top-left-radius: var(--br-main);
     border-top-right-radius: var(--br-main);
 }
@@ -5500,6 +5501,7 @@ p.notice {
 .mad-entities.type-2 .mad-entity {
     display: block;
     position: relative;
+    min-height: 24rem;
     color: var(--color-neutral-80);
     background-color: #FFF;
     box-shadow: 0 5px 10px rgba(51, 51, 51, 0.1);
