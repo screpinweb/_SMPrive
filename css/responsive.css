@@ -1612,6 +1612,13 @@
     .mad-title-wrap.align-center {
     	padding: 0;
     }
+    .mad-panels-title>button {
+    	padding-right: 0;
+    }
+    .mad-box-element.questions {
+   	    padding: 3rem 1.5rem;
+    }
+
 	.mad-icon-boxes.benefits>* {
     	padding: 1rem 1.5rem 0 !important;
 	}

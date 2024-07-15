@@ -5601,13 +5601,30 @@ p.notice {
     line-height: 1.55em;
 }
 
-.mad-entities.type-2.products .mad-entity .mad-entity-content p {
+.mad-entities.type-2.products .mad-entity .mad-entity-content:not(.mad-text-medium) p {
     font-size: .9rem;
     line-height: 1.25em;
     text-align: center;
     color: var(--color-accent);
     font-weight: 300;
     margin: -1rem 0 1rem 0;
+}
+.mad-entities.type-2.products .mad-entity .mad-entity-content.mad-text-medium {
+    margin-top: 4rem;
+}
+.mad-entities.type-2.products .mad-entity .mad-entity-content.mad-text-medium p {
+    font-size: .925rem;
+    line-height: 1.35em;
+    text-align: center;
+    font-weight: 300;
+    color: var(--color-primary);
+}
+
+.mad-entities.type-2.products .mad-entity .mad-entity-content.mad-text-medium p strong {
+    font-size: 1.35rem;
+    font-family: 'Barlow', sans-serif;
+    color: var(--color-accent);
+    font-weight: 500;
 }
 
 .mad-entities.type-2.steps .mad-entity .mad-entity-content p {

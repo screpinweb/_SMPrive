@@ -91,7 +91,7 @@
                         <!--================ Sub Menu ================-->
                         <ul class="sub-menu">
                           <li class="menu-item">
-                            <a href="/services/soins-urgence.php">Cryothérapie </a>
+                            <a href="/services/cryotherapie.php">Cryothérapie </a>
                           </li>
                           <li class="menu-item">
                             <a href="/services/soins-urgence.php">Drainage d’abcès</a>
