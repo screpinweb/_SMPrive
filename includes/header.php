@@ -91,9 +91,6 @@
                         <!--================ Sub Menu ================-->
                         <ul class="sub-menu">
                           <li class="menu-item">
-                            <a href="/services/cryotherapie.php">Cryothérapie </a>
-                          </li>
-                          <li class="menu-item">
                             <a href="/services/soins-urgence.php">Drainage d’abcès</a>
                           </li>
                           <li class="menu-item">
@@ -147,7 +144,6 @@
                          </ul>
                          <!--================ End of Sub Menu ================-->
                       </li>
-                      <?php /*
                       <li class="menu-item menu-item-has-children">
                         <a href="#" class="sub-title">Santé de la Femme</a>
                         <!--================ Sub Menu ================-->
@@ -156,7 +152,7 @@
                             <a href="/services/sante-femme.php">PAP Test</a>
                           </li>
                           <li class="menu-item">
-                            <a href="/services/homonotherapie.php">Hormonothérapie et ménopause</a>
+                            <a href="/services/sante-femme.php">Hormonothérapie et ménopause</a>
                           </li>
                           <li class="menu-item">
                             <a href="/services/sante-femme.php">Infection urinaire</a>
@@ -173,12 +169,17 @@
                         <!--================ Sub Menu ================-->
                         <ul class="sub-menu">
                           <li class="menu-item">
+                            <a href="/services/cryotherapie.php">Cryothérapie </a>
+                          </li>
+                          <?php /*
+                          <li class="menu-item">
                             <a href="/services/prise-de-sang.php">Prise de sang</a>
                           </li>
+                          */ ?>
                         </ul>
                         <!--================ End of Sub Menu ================-->
                       </li>
-                      */ ?>
+                      
                     </ul>
                     <!--================ End of Sub Menu ================-->
                   </li>

@@ -881,6 +881,8 @@ html.mad-theme-white:not(.style-2) .header-4 .logo>img:not(:nth-child(2)) {
     left: 0;
 }
 
+
+
 .mad-navigation .sub-menu a:not(.btn) {
     color: var(--color-primary-2);
     font-weight: 300;
@@ -895,8 +897,9 @@ html.mad-theme-white:not(.style-2) .header-4 .logo>img:not(:nth-child(2)) {
 }
 
 .mad-navigation .sub-menu:not(.with-aside).mad-reverse {
-    left: auto;
-    right: 0;
+    max-width: 1400px;
+    left:0;
+    right:0;
 }
 
 .mad-navigation .sub-menu .sub-menu {
