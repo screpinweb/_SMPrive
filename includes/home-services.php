@@ -33,7 +33,7 @@
                 <!--================ Entity ================-->
                 <article class="mad-entity colored-bg">
                   <div class="mad-entity-media">
-                    <a href="/services/consultations.php"><img src="images/service-consultations.jpg" alt="Consultations"></a>
+                    <a href="/services/consultations.php"><img src="images/icon-consultations.png" alt="Consultations"></a>
                   </div>
                   <div class="mad-entity-content">
                     <div class="mad-entity-header">
@@ -67,10 +67,28 @@
                 </article>
                 <!--================ End of Entity ================-->
               </div>
-              
               <div class="mad-col">
                 <!--================ Entity ================-->
                 <article class="mad-entity colored-bg">
+                  <div class="mad-entity-media">
+                    <a href="/services/sante-femme.php"><img src="images/icon-sante-de-la-femme.png" alt="Santé de la femme"></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="/services/sante-femme.php">Santé de la femme</a>
+                      </h5>
+                      <p>Nous comprenons l'importance de la santé féminine. Nos professionnels offrent des services de dépistage, de suivi gynécologique et de conseils pour prendre soin de votre bien-être. </p>
+
+                      <a href="/services/sante-femme.php" class="mad-text-link">EN SAVOIR PLUS</a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity">
                   <div class="mad-entity-media">
                     <a href="/services/infiltrations.php"><img src="images/service-infiltrations.jpg" alt="Infiltrations"></a>
                   </div>
@@ -88,6 +106,25 @@
                 </article>
                 <!--================ End of Entity ================-->
               </div>
-              
+              <div class="mad-col">
+                <!--================ Entity ================-->
+                <article class="mad-entity colored-bg">
+                  <div class="mad-entity-media">
+                    <a href="/services/cryotherapie.php"><img src="images/icon-cryotherapie.png" alt="Cryothérapie"></a>
+                  </div>
+                  <div class="mad-entity-content">
+                    <div class="mad-entity-header">
+                      <h5 class="mad-entity-title">
+                        <a href="#">Cryothérapie</a>
+                      </h5>
+                      <p>
+                        La cryothérapie est une méthode de traitement populaire pour éliminer divers types de lésions cutanées.
+                      </p>
+                      <a href="/services/cryotherapie.php" class="mad-text-link">EN SAVOIR PLUS</a>
+                    </div>
+                  </div>
+                </article>
+                <!--================ End of Entity ================-->
+              </div>
           </div>
 </div>
