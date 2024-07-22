@@ -78,7 +78,7 @@
                       <h5 class="mad-entity-title">
                         <a href="/services/sante-femme.php">Santé de la femme</a>
                       </h5>
-                      <p>Nous comprenons l'importance de la santé féminine. Nos professionnels offrent des services de dépistage, de suivi gynécologique et de conseils pour prendre soin de votre bien-être. </p>
+                      <p>Nous offrons une gamme complète de services, notamment la l'insertion et le retrait des stérilets[IUD], les tests Pap et HPV, les soins de la ménopause, les thérapies hormonales, la première visite de grossesse et les examens préventifs.</p>
 
                       <a href="/services/sante-femme.php" class="mad-text-link">EN SAVOIR PLUS</a>
                     </div>
@@ -98,7 +98,7 @@
                         <a href="/services/infiltrations.php">Infiltrations</a>
                       </h5>
                       <p>
-                        Nos techniciens qualifiés effectuent des prélèvements sanguins avec précision et empathie pour vous offrir des résultats fiables dans les meilleurs délais.
+                        Les infiltrations sont des procédures médicales couramment utilisées pour traiter un large éventail de conditions inflammatoires, telles que l'arthrose, la bursite et les tendinites.
                       </p>
                       <a href="/services/infiltrations.php" class="mad-text-link">EN SAVOIR PLUS</a>
                     </div>
