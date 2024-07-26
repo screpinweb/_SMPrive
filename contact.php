@@ -23,8 +23,8 @@
         <div class="container-fluid">
             <div class="mad-section medium-size">
               <div class="container-fluid">
-                <div class="row vr-size-1">
-                  <div class="col-lg-5 col-pd-right contact-info">
+                <div class="row">
+                  <div class="col-md-5 col-pd-right contact-info">
                     <div class="mad-img-container">
                       <div class="mad-img"><img src="images/sm-prive_clinique.jpg" alt="SM Privé - Clinique Médicale Privée à Montréal" /></div>
                     </div>
@@ -44,7 +44,7 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="col-lg-7">
+                  <div class="col-md-7">
 
                     <p class="mad-text-large content-element-4">Pour toutes questions, remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.</p>
 
@@ -92,15 +92,15 @@
                   <h3 class="mad-title">Nos cliniques et points de service</h3>
                 </div>
 
-                <div class="row vr-size-1 clinic-info">
-                  <div class="col-lg-3">
+                <div class="row clinic-info">
+                  <div class="col-md-3">
                     <h6>Clinique Santé Optimum</h6>
                     <p class="clinic-info">
                         1500 Montgolfier Suite 400<br> Laval, QC, H7T 0A2<br>
                         (450) 497-1500 x3
                     </p>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-md-3">
                     <h6>SM PRIVÉ - Clinique Médicale</h6>
                     <p>
                         3333 Blvd Graham #220 <br>Mont Royal, Québec H3R 3L5<br>
@@ -108,7 +108,7 @@
                         +1 (833) 921-2783
                     </p>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-md-3">
                     <h6>SM PRIVÉ - Clinique Médicale</h6>
                     <p>
                         3333 Blvd Graham #220 <br>Mont Royal, Québec H3R 3L5<br>
@@ -119,8 +119,6 @@
                   
                 </div>  
 
-                
-                </div>
               </div>
             </div>
 

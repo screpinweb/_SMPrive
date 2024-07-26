@@ -12,7 +12,7 @@
     <?php include("../includes/header.php");?>
 
     <!--================ Page Title ================-->
-    <div class="mad-breadcrumb with-bg-img dark bg-alignleft" data-bg-image-src="../images/banner-service-depistage.jpg">
+    <div class="mad-breadcrumb with-bg-img with-overlay dark bg-alignleft" data-bg-image-src="../images/banner-service-depistage.jpg">
       <div class="container wide">
         <div class="mad-pre-title">SERVICES</div>
         <h1 class="mad-page-title">Dépistage</h1>

@@ -3,7 +3,7 @@
           <div class="container">
             <div class="mad-element-holder justify-content-start">
               <div class="mad-box-element">
-                <div class="mad-title-wrap align-center pd-btm-small">
+                <div class="mad-title-wrap align-center no-pb">
                   <div class="mad-pre-title">POURQUOI NOUS CHOISIR</div>
                   <h3 class="mad-title">Les meilleurs soins pour vous et votre famille !</h2>
                   <p class="mad-text-small align-center"> À travers nos pratiques centrées sur le patient et notre engagement envers l'excellence, nous nous efforçons de fournir les meilleurs soins de santé possible à nos patients, chaque jour.</p>

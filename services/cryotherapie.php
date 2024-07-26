@@ -12,7 +12,7 @@
     <?php include("../includes/header.php");?>
 
     <!--================ Page Title ================-->
-    <div class="mad-breadcrumb with-bg-img dark bg-alignleft" data-bg-image-src="../images/banner-service-cryotherapie.jpg">
+    <div class="mad-breadcrumb with-bg-img dark with-overlay bg-alignleft" data-bg-image-src="../images/banner-service-cryotherapie.jpg">
       <div class="container wide">
         <div class="mad-pre-title">SERVICES</div>
         <h1 class="mad-page-title">Cryothérapie</h1>

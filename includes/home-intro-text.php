@@ -1,12 +1,12 @@
 
        
           <div class="row no-row-gap">
-            <div class="col-xl-5">
+            <div class="col-md-5">
               <div class="mad-img-container">
                 <div class="mad-img"><img src="images/SMPrive-clinique-medicale_accueil_1.jpg" alt="SM Privé - Clinique Médicale Privée à Montréal" /></div>
               </div>
             </div>
-            <div class="col-xl-7">
+            <div class="col-md-7">
               <div class="mad-img-content">
                     <div class="mad-pre-title">À PROPOS DE SM PRIVÉ</div>
                     <h2 class="mad-title">Au service de votre santé</h2>

@@ -21,8 +21,8 @@
   <link rel="stylesheet" href="https://use.typekit.net/nas4fxs.css">
 
   <!--================ Google web fonts ================-->
-  <link href="https://fonts.googleapis.com/css2?family=family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet" />
   
   <!--================ Vendor CSS ================-->

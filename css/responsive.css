@@ -490,10 +490,11 @@
 		font-size: 0.875rem;
 		line-height: 1rem;
 		padding-top: 0.5rem;
-		color: var(--color-neutral-80) !important;
+		color: var(--color-primary) !important;
 		text-transform: uppercase;
 		font-weight: normal;
 		border: none;
+		letter-spacing: .05rem;
 		margin-bottom: 1rem;
 		text-decoration: none !important;
 	}
@@ -960,8 +961,19 @@
 		padding: 6rem 4rem;
 	}
 
-	.mad-entities.type-4 .mad-entity, .mad-before-after.type-2 {
+	.mad-entities.type-4 .mad-entity, .mad-before-after.type-2,
+	.mad-entities.mad-team.type-4.style-2  {
 		display: block;
+		margin:0 auto;
+		max-width: 780px;
+	}
+
+	p.notice {
+	    font-size: .875rem;
+	}
+	
+	.mad-col.single-member {
+	    max-width: 500px;
 	}
 
 	.mad-before-after.type-2 .mad-before-after-content, .mad-entities.type-4:not(.type-2):not(.mad-entity-small) .mad-entity .mad-entity-content, .mad-before-after.type-2 .mad-before-after-media, .mad-entities.type-4 .mad-entity .mad-entity-media, .mad-entities.type-4:not(.mad-entity-small):not(.type-2):not(.type-3) .mad-entity .mad-entity-media {
@@ -1446,12 +1458,12 @@
 	}
     .content-element-3 p,
 	.mad-text-small {
-	    font-size: 0.9rem;
+	    font-size: 0.975rem;
 	    line-height: 1.7rem;
 	}
 
 	h2.mad-title.smaller {
-		font-size: 2.5rem;
+		font-size: 2rem;
     	line-height: 1.1em;
     	margin-bottom: 1rem;
 	}
@@ -1561,10 +1573,26 @@
 @media (max-width:769px) {
 
 	.home-slider.rev_slider_wrapper .tp-caption p {
-		font-size: .76rem !important;
+		font-size: .85rem !important;
 		line-height: 1.3em !important;
 	}
 
+	.mad-box-element h3.mad-title {
+	    font-size: 2.875rem;
+	    line-height: 2.5rem;
+	}
+	.mad-box-element .mad-title-wrap.no-pb {
+		margin-bottom: 1rem;
+	}
+
+	.clinic-info.row {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+
+    .mad-icon-boxes.values>* {
+		padding: 4rem 4.5rem 0 !important;
+	}
 
 	.tp-layer-section-title, 
 	.tp-layer-section-title>span,
@@ -1742,11 +1770,26 @@
 		font-size: 3rem;
 		line-height: 3rem;
 	}
+	.home-slider.rev_slider_wrapper .mad-pre-title {
+		letter-spacing: 2.5px;
+	}
+	.mad-title-wrap.align-center h2:not(:last-child) {
+	    margin-bottom: 1rem;
+	}
     .mad-title-wrap p {
     	font-size: 1rem;
     }
     .mad-title-wrap p.first-paragraph {
 		font-size: 1.3rem;
+		line-height: 1.4em;
+    }
+
+    .mad-title-wrap.align-center p:not(.first-paragraph, .mad-text-small) {
+    	line-height: 1.45em;
+    }
+    
+    .mad-entities.type-2:not(.steps) .mad-entity .mad-entity-content p {
+    	font-size: .9rem;
     }
 	.owl-carousel.mad-grid--cols-6 .owl-dots, .owl-carousel.mad-grid--cols-2 .owl-dots {
 		display: none;
@@ -1936,12 +1979,12 @@
 	}
 
 	[class*="mad-header-section--sticky"] {
-		padding-top: 1rem;
-		padding-bottom: 1rem;
+		padding-top: .5rem;
+		padding-bottom: .5rem;
 	}
 
 	.mad-logo {
-		width: 200px;
+		width: 175px;
 	}
 
 	.mad-lang .mad-dropdown-element {
@@ -1964,7 +2007,14 @@
 	.calendar_wrap table thead th {
 		font-size: 0.625rem;
 	}
+	.mad-breadcrumb h1.mad-page-title {
+		font-size: 2rem;
+	}
 
+	.mad-breadcrumb .mad-pre-title {
+		font-size: .8rem;
+		margin-bottom: 0;
+	}
 	.mad-breadcrumb.with-bg-img {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
@@ -1978,7 +2028,7 @@
 	    left: 0;
 	    right: 0;
 	    bottom: 0;
-	    opacity: 0.5;
+	    opacity: 0.65;
 	    z-index: 1;
     }
     .mad-breadcrumb.with-bg-img .container {
@@ -1996,9 +2046,11 @@
         padding-bottom: 3rem !important;
 	}
 
-	.mad-pt-item .btm-action {
-		width: calc(100% - 2rem);
-    }
+	.mad-pt-item .mad-pt-header {
+		font-size: 1.5rem;
+		line-height: 1.1em;
+		min-height: 0;
+	}
 
 	table .mad-products.mad-product-small .mad-product {
 		flex-direction: column;
@@ -2115,10 +2167,6 @@
 
 	.row.vr-size-1, .row.vr-size-main, .row.vr-size-2 {
 		row-gap: 6rem;
-	}
-	.clinic-info.row {
-		margin-left: 2rem;
-		margin-right: 2rem;
 	}
 
 	.with-btn-bg::after {
@@ -2285,6 +2333,10 @@
 	.shop-cart-form .mad-product .mad-close-item,
 	.shop-cart-form .mad-product .mad-product-image {
 		display: none;
+	}
+
+	.mad-col.wide-gaps {
+		padding: 2rem;
 	}
 
 }

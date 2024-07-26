@@ -186,7 +186,7 @@ mark.style-2 {
     --color-accent-lighter: #a6e7ff;
     --color-lighter-blue: #96b4d2;
     --color-bg-light-blue: #f7f9fd;
-    --color-accent-bg: #d6eff6;
+    --color-accent-bg: #095377;
     --color-primary-darker: #011b48;
     --color-primary-lighter: #4d80a8;
     --color-primary-50: #A6C1E0;
@@ -213,11 +213,11 @@ mark.style-2 {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1rem;
     line-height: 1.7rem;
     -webkit-text-size-adjust: 100%;
-    font-weight: 200;
+    font-weight: 300;
     color: var(--color-neutral);
 }
 
@@ -237,7 +237,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-heading);
     font-family: 'miller-banner', sans-serif;
     font-weight: 400;
-    letter-spacing: -0.75px;
 }
 
 h1:not(:last-child) {
@@ -276,12 +275,12 @@ h2 {
 
 h3 {
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 3.25rem;
 }
 
 h4 {
     font-size: 2.25rem;
-    line-height: 3rem;
+    line-height: 3.25rem;
 }
 
 h5 {
@@ -305,7 +304,9 @@ h6 {
 .mad-title-wrap.no-pd {
     margin: 0 auto !important;
 }
-
+.mad-title-wrap.no-pb {
+    margin-bottom: 0;
+}
 .mad-title-wrap.pd-btm-small {
     margin-bottom: 2rem;
 }
@@ -325,6 +326,10 @@ h6 {
     padding: 0 2rem;
 }
 
+.mad-title-wrap.align-center p:not(.first-paragraph, .mad-text-small) {
+    line-height: 1.75rem;
+}
+
 .mad-title-wrap .mad-title-row {
     display: flex;
     flex-wrap: wrap;
@@ -340,7 +345,7 @@ h6 {
     line-height: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 3.5px;
-    font-weight: 300;
+    font-weight: 400;
     position: relative;
     align-items: center;
     color: var(--color-accent);
@@ -368,9 +373,9 @@ h2.mad-title.smaller {
 }
 
 .mad-title.alt {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-bottom: .75em;
-    font-size: 3rem;
+    font-size: 2.65rem;
     color: var(--color-accent);
 }
 
@@ -781,7 +786,7 @@ html.mad-theme-white:not(.style-2) .header-4 .logo>img:not(:nth-child(2)) {
 }
 
 .mad-navigation>li>a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: var(--color-neutral);
     font-size: 0.85rem;
     line-height: 1rem;
@@ -824,7 +829,7 @@ html.mad-theme-white:not(.style-2) .header-4 .logo>img:not(:nth-child(2)) {
 }
 
 .mad-navigation .sub-menu {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     min-width: 17rem;
     font-size: 0.875rem;
     padding: 1.5rem 2rem 1.5rem;
@@ -885,8 +890,8 @@ html.mad-theme-white:not(.style-2) .header-4 .logo>img:not(:nth-child(2)) {
 
 .mad-navigation .sub-menu a:not(.btn) {
     color: var(--color-primary-2);
-    font-weight: 300;
-    font-size: .9em;
+    font-weight: 400;
+    font-size: .975em;
 }
 
 .mad-navigation .sub-menu a:not(.btn):hover {
@@ -961,8 +966,8 @@ html.mad-theme-white:not(.style-2) .header-4 .logo>img:not(:nth-child(2)) {
 }
 
 .mad-mobile-nav-btn, .mad-nav-btn {
-    width: 3rem;
-    height: 1.5625rem;
+    width: 2.5rem;
+    height: 1.4rem;
     position: relative;
     display: none;
 }
@@ -975,8 +980,8 @@ html.mad-theme-white:not(.style-2) .header-4 .logo>img:not(:nth-child(2)) {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 3px;
-    background-color: var(--color-neutral);
+    height: 2px;
+    background-color: var(--color-primary-darker);
     transform-origin: 50% 50%;
     -webkit-transform-origin: 50% 50%;
     transition: transform 0.5s 0.08s, background-color 0.5s, top 0.5s 0.08s, left 0.3s, opacity 0.5s, width 0.6s 0.05s;
@@ -1406,10 +1411,11 @@ html.with-src-menu .mad-back-to-top {
 
 .mad-breadcrumb {
     background-size: cover;
-    padding-top: 10.75rem;
-    padding-bottom: 10.75rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     background-repeat: no-repeat;
     color: var(--color-neutral-15);
+    position: relative;
 }
 
 .mad-breadcrumb.title-right {
@@ -1460,6 +1466,28 @@ html.with-src-menu .mad-back-to-top {
     color: var(--color-primary);
     background-color: var(--color-neutral-5);
 }
+  
+.mad-breadcrumb.with-bg-img:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.35;
+    z-index: 1;
+}
+.mad-breadcrumb.with-bg-img .container {
+    position: relative;
+    z-index: 5;
+}
+.mad-breadcrumb.with-bg-img.with-overlay.dark:after {
+    background-color: var(--color-secondary);
+}
+.mad-breadcrumb.with-bg-img.with-overlay.light:after {
+    background-color: var(--color-neutral-5);
+}
+
 
 .mad-breadcrumb.title-right {
     background-color: transparent;
@@ -1495,17 +1523,22 @@ html.with-src-menu .mad-back-to-top {
 
 
 h4.mad-sub-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1.7em;
     letter-spacing: 0;
     color: var(--color-accent);
 }
-
+/*
 .mad-breadcrumb.with-bg-img.dark .mad-page-title, 
 .mad-breadcrumb.with-bg-img.dark .mad-pre-title {
     text-shadow: 1px 1px 3px var(--color-primary);
 }
-
+*/
+.mad-breadcrumb h1.mad-page-title {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
 
 .half-content {
     padding: 5rem !important;
@@ -1519,12 +1552,26 @@ h4.mad-sub-title {
     object-fit: cover;
 }
 
+ol {
+    margin: 2rem 1.25rem 0;
+}
+
+.half-content ol li::marker {
+    font-weight: 400;
+    color: var(--color-heading);
+
+}
+
 .half-content ol li {
-    padding: 0 0 1em 0;
+    padding: 0 0 2em 0;
+
 }
 
 .half-content ol li strong{
     display: block;
+    color: var(--color-heading);
+    margin-bottom: .25rem;
+    font-size: 1.125rem;
 }
 
 /* ----------------------------------------
@@ -1820,7 +1867,7 @@ h4.mad-sub-title {
     line-height: 1.5rem;
     border-width: 0;
     background: var(--color-secondary-5);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .calendar_wrap table caption {
@@ -1844,7 +1891,7 @@ h4.mad-sub-title {
 }
 
 .calendar_wrap table thead th {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: 1px;
@@ -3228,7 +3275,7 @@ blockquote:not(.mad-blockquote--unstyled).mad-blockquote--style-2 {
     font-size: 1.15rem;
     line-height: 1.4rem;
     font-weight: 400;
-    font-family: "Barlow", sans-serif;
+    font-family: "Lato", sans-serif;
     text-align: initial;
     display: block;
     width: 100%;
@@ -3803,215 +3850,6 @@ blockquote:not(.mad-blockquote--unstyled).mad-blockquote--style-2 {
 }
 
 /* ----------------------------------------
-        Progress Bars
-    ---------------------------------------- */
-
-.mad-progress-bars-item:not(:last-child) {
-    margin-bottom: 2rem;
-}
-
-.mad-progress-bar {
-    height: 0.5rem;
-    position: relative;
-    border-radius: var(--br-main);
-    overflow: hidden;
-    background-color: var(--color-primary-25);
-}
-
-.mad-progress-bar-title {
-    font-family: "miller-banner", sans-serif;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 400;
-    margin-bottom: 0.5rem;
-    display: block;
-    position: relative;
-    padding-right: 6.25rem;
-    letter-spacing: -0.3px;
-    color: var(--color-neutral);
-}
-
-.mad-progress-bar-title::after {
-    content: attr(data-value) attr(data-units);
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.mad-progress-bar-indicator {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: auto;
-    background: var(--color-primary);
-}
-
-.mad-progress-bars--secondary .mad-progress-bar {
-    height: 0.25rem;
-    border-radius: 0;
-}
-
-.mad-progress-bars--secondary .mad-progress-bar-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
-}
-
-.mad-progress-bars.style-2 .mad-progress-bar {
-    background: var(--color-neutral-15);
-}
-
-.mad-progress-bars.style-2 .mad-progress-bar-indicator {
-    background: var(--color-neutral);
-}
-
-.mad-review-section {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 2rem;
-    row-gap: 2rem;
-}
-
-.mad-review-section>* {
-    flex: 1;
-}
-
-.mad-review-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    height: 100%;
-    width: 100%;
-    max-width: 17rem;
-    min-height: 17rem;
-    background: var(--color-primary-10);
-}
-
-.mad-review-box-inner {
-    font-family: 'miller-banner', sans-serif;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    letter-spacing: -0.5px;
-    text-align: center;
-    color: var(--color-neutral);
-    display: flex;
-    flex-direction: column;
-}
-
-.mad-review-box-inner>span:first-child {
-    font-size: 6rem;
-    line-height: 6rem;
-    color: var(--color-primary);
-}
-
-/* ----------------------------------------
-        Counters
-    ---------------------------------------- */
-
-.mad-counters {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 2;
-}
-
-.mad-counters[class*="item-col-"]:not(.no-gutters) {
-    margin-top: -3rem;
-}
-
-.mad-counters[class*="item-col-"]:not(.no-gutters)>* {
-    padding-top: 3rem;
-}
-
-.mad-counters[class*="item-col-"]:not(.no-gutters) {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-}
-
-.mad-counters[class*="item-col-"]:not(.no-gutters)>* {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-
-.mad-counter {
-    color: var(--color-neutral-80);
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding-right: 1.5rem;
-}
-
-.mad-counters>.mad-col:not(:last-child) .mad-counter {
-    border-right: 1px solid var(--color-neutral-20);
-}
-
-.mad-counter-count {
-    font-family: 'miller-banner', sans-serif;
-    font-size: 3.75rem;
-    line-height: 3.5rem;
-    white-space: nowrap;
-    font-weight: bold;
-    color: var(--color-secondary);
-    letter-spacing: 0;
-    margin-bottom: 0.5rem;
-}
-
-.mad-counter-icon .svg {
-    height: 6rem;
-}
-
-.mad-counters.type-2 .mad-counter-icon .svg {
-    height: 4.875rem;
-}
-
-.mad-counters.vr-type .mad-counter .mad-counter-inner {
-    flex-direction: column;
-    column-gap: 0;
-    row-gap: 0;
-}
-
-.mad-counters.vr-type .mad-counter .mad-counter-icon:not(:last-child) {
-    margin-bottom: 1rem;
-}
-
-.mad-counter .mad-counter-icon:after {
-    width: 4rem;
-    height: 4rem;
-    margin-right: -0.5rem;
-    margin-top: -0.5rem;
-}
-
-.mad-counters .mad-counter .mad-counter-inner {
-    display: flex;
-    column-gap: 1.5rem;
-    row-gap: 1rem;
-}
-
-.mad-counters.style-2 .mad-counter {
-    color: var(--color-secondary-5);
-}
-
-.mad-counters.style-2 .mad-counter-count {
-    color: var(--color-neutral-0);
-}
-
-.mad-counters.no-icons .mad-counter .mad-counter-icon {
-    display: none;
-}
-
-.mad-counters.style-2 .mad-counter .mad-counter-icon path {
-    stroke: var(--color-neutral-0);
-}
-
-.mad-counters.style-2>.mad-col:not(:last-child) .mad-counter {
-    border-right: 1px solid var(--color-primary-50);
-}
-
-/* ----------------------------------------
         Tooltips
     ---------------------------------------- */
 
@@ -4143,9 +3981,9 @@ blockquote:not(.mad-blockquote--unstyled).mad-blockquote--style-2 {
 }
 
 .mad-team-member-info .mad-member-stat {
-    font-size: .785rem;
+    font-size: .7rem;
     line-height: 1.3rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     color: var(--color-accent);
@@ -4165,7 +4003,11 @@ blockquote:not(.mad-blockquote--unstyled).mad-blockquote--style-2 {
 }
 
 .mad-entities.mad-team .mad-entity .mad-entity-content .mad-title:not(:last-child) {
-    margin-bottom: .8rem;
+    margin-bottom: .6rem;
+}
+
+.mad-entities.mad-team .mad-entity .mad-entity-content .mad-pre-title {
+   font-size: .95rem;
 }
 
 .mad-entities.mad-team .mad-entity .mad-entity-content h3.mad-title {
@@ -4264,7 +4106,7 @@ table td, table th {
     padding-right: 2rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
-    font-size: 1rem;
+    font-size: .9rem;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: var(--color-neutral-15);
@@ -4286,7 +4128,7 @@ table tfoot td {
 
 table th {
     font-size: .9rem;
-    font-family: 'Poppins', serif;
+    font-family: 'Lato', serif;
 }
 
 table tbody th,
@@ -4382,10 +4224,10 @@ table.mad-table--vertical tr th {
 }
 
 .mad-pt-item .mad-pt-header {
-    background: var(--color-accent);
+    background: var(--color-accent-bg);
     color: var(--color-neutral-0);
-    font-family: 'Barlow', sans-serif;
-    font-size: 2.1rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.875rem;
     line-height: 2.15rem;
     text-align: center;
     padding: 1.3rem 1rem 1.3rem;
@@ -4407,7 +4249,7 @@ table.mad-table--vertical tr th {
     line-height: 1rem;
     font-weight: 600;
     color: var(--color-primary);
-    letter-spacing: -1.5px;
+    letter-spacing: -.5px;
 }
 
 .mad-pt-item .mad-pt-price span:before {
@@ -4427,7 +4269,8 @@ table.mad-table--vertical tr th {
 
 .mad-pt-item .mad-pt-price sup {
     font-size: .5em;
-    top: -0.25rem;
+    top: -0.3rem;
+    left: 0.15rem;
     position: relative;
 }
 
@@ -4462,10 +4305,9 @@ table.mad-table--vertical tr th {
 }
 
 .mad-pt-item .btm-action {
-    margin-top: 2rem;
     text-align: center;
     position: absolute;
-    bottom: -1.35rem;
+    bottom: 1.75rem;
     margin: 2rem auto 0;
     width: calc(100% - 4rem);
 }
@@ -4474,6 +4316,15 @@ table.mad-table--vertical tr th {
     background-color : var(--color-heading);
     color: #FFF;
     border-color : var(--color-heading);
+    padding: .5rem 1.65rem;
+    font-size: 0.875rem;
+    letter-spacing: .05rem;
+    line-height: 1.06rem;
+    min-width: 200px;
+}
+
+.mad-pt-item .btm-action .btn.select-package {
+    padding: 1rem 1.65rem;
 }
 
 .mad-pt-item .btm-action .btn:hover {
@@ -4488,10 +4339,14 @@ table.mad-table--vertical tr th {
 .mad-pt-item .mad-entity-content ul li {
     font-size: .9rem;
     line-height: 1.25em;
-    padding: 0 0 1rem 1.75rem;
+    padding: 0 .75rem 1rem 1.5rem;
     position: relative;
-    color: var(--color-primary);
+    color: var(--color-neutral);
     font-weight: 300;
+}
+
+.mad-pt-item .mad-entity-content ul li:last-child {
+    padding-bottom: 0;
 }
 
 .mad-pt-item .mad-entity-content ul li .fa {
@@ -4507,19 +4362,19 @@ table.mad-table--vertical tr th {
     text-transform: none;
     text-align: center;
     position: absolute;
-    top: 0.2em;
+    top: 0.3em;
     left: 0px;
     color: var(--color-accent);
 }
 
 .mad-pt-item .mad-entity-content ul li.checkmark:before {
     content: "done";
-    top: -0.25rem;
+    top: -0.025rem;
 }
 
 .mad-pt-item .mad-entity-content ul li.close:before {
     content: "close";
-    top: -0.25rem;
+    top: -0.025rem;
     color: #d53450;
 }
 
@@ -4599,7 +4454,7 @@ table.mad-table--vertical tr th {
 
 
 p.first-paragraph {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1.35em;
     color: var(--color-heading);
@@ -4878,13 +4733,13 @@ p.first-paragraph {
 }
 .mad-icon-boxes.benefits .mad-icon-box h6.mad-icon-box-title  {
     color: var(--color-accent-2);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: .9rem;
     line-height: 1.3em;
     text-transform: uppercase;
     letter-spacing: 0;
     max-width: none;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 auto 1rem auto;
 }
 
@@ -4895,7 +4750,7 @@ p.first-paragraph {
 
 .mad-icon-boxes.values .mad-icon-box h6.mad-icon-box-title {
     color: var(--color-heading);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
     line-height: 1.3em;
     text-transform: uppercase;
@@ -5321,7 +5176,7 @@ p.first-paragraph {
     color: var(--color-neutral-0);
     padding-left: 1rem;
     padding-top: 1rem;
-    letter-spacing: -1.5px;
+    letter-spacing: -1px;
     overflow: hidden;
 }
 
@@ -5460,7 +5315,7 @@ p.notice {
 }
 
 .btm-notice {
-    font-size: .875rem;
+    font-size: .975rem;
     line-height: 1.5em;
     margin-top: 2rem;
     text-align: center;
@@ -5569,25 +5424,25 @@ p.notice {
 .mad-entities.type-2 .mad-entity .mad-entity-content {
     padding: 1rem 2rem 3rem;
 }
-.mad-entities.type-2 .mad-entity .mad-entity-content.with-btn {
-    padding: 1rem 2rem 5rem;
+.mad-entities.type-2.products .mad-entity .mad-entity-content {
+    padding: 1rem 2rem 7rem;
 }
 
 .mad-entities.type-2 .mad-entity .mad-entity-content h5.mad-entity-title {
     margin-bottom: .7rem;
     font-size: 1.7rem;
     line-height: 1.1em;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.3px;
 }
 .mad-entities.type-2 .mad-entity .mad-entity-content h5.mad-entity-title.align-center {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     line-height: 1.05em;
-    font-size: 1.9rem;
+    font-size: 1.55rem;
     margin: .5rem 0 1.5rem 0;
 }
 .mad-entities.type-2 .mad-entity .mad-entity-content h5.mad-entity-title small {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1rem;
     line-height: 1.2rem;
     text-transform: uppercase;
@@ -5609,8 +5464,8 @@ p.notice {
     line-height: 1.25em;
     text-align: center;
     color: var(--color-accent);
-    font-weight: 300;
-    margin: -1rem 0 1rem 0;
+    font-weight: 400;
+    margin: -1rem 0 1.5rem 0;
 }
 .mad-entities.type-2.products .mad-entity .mad-entity-content.mad-text-medium {
     margin-top: 4rem;
@@ -5625,7 +5480,7 @@ p.notice {
 
 .mad-entities.type-2.products .mad-entity .mad-entity-content.mad-text-medium p strong {
     font-size: 1.35rem;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: var(--color-accent);
     font-weight: 500;
 }
@@ -5801,7 +5656,7 @@ p.notice {
 }
 
 .mad-entities.with-date .mad-entity .mad-entity-content .mad-entity-date span:last-child {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 0.875rem;
     line-height: 1rem;
     letter-spacing: 5px;
@@ -6724,7 +6579,7 @@ p.notice {
 .mad-box-element {
     padding: 5rem 5.5rem;
     max-width: 55rem;
-    min-height: 40rem;
+    min-height: 35rem;
     background: var(--color-neutral-0);
     border-radius: var(--br-main);
     background-position: right bottom;
@@ -6780,7 +6635,7 @@ p.notice {
 .clinic-info h6,
 .contact-info h5 {
     margin-top: 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: var(--color-accent);
     font-size: 1.2rem;
     letter-spacing: 0.05rem;

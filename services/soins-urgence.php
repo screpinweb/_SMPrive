@@ -12,7 +12,7 @@
     <?php include("../includes/header.php");?>
 
     <!--================ Page Title ================-->
-    <div class="mad-breadcrumb with-bg-img dark bg-alignleft" data-bg-image-src="../images/banner-service-soins-urgence.jpg">
+    <div class="mad-breadcrumb with-bg-img with-overlay dark bg-alignleft" data-bg-image-src="../images/banner-service-soins-urgence.jpg">
       <div class="container wide">
         <div class="mad-pre-title">SERVICES</div>
         <h1 class="mad-page-title">Soins d'urgence</h1>
@@ -29,17 +29,12 @@
 
                       <p>Un reçu pour les assurances privées sera remis.</p>
                 </div>
-    
-
-
-
-
-
+  
 
                 <div class="mad-entities align-center type-2 item-col-2 products">
 
                       <!--================ Product ================-->
-                      <div class="mad-col wide-gaps single-product">
+                      <div class="mad-col">
                         <article class="mad-entity mad-pt-item">
                           <h5 class="mad-pt-header">Consultation <br>Urgence Mineure</h5>
                           <div class="mad-pt-content mad-entity-content">

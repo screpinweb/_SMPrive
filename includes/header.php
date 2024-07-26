@@ -12,10 +12,6 @@
             <div class="mad-header-item">
               <div class="mad-our-info">
                 <div class="mad-our-info">
-                  <div class="mad-info hide-mobile">
-                    <i><img src="../images/svg-icons/loc3.svg" alt="" class="svg" /></i>
-                    <span>3333 Blvd Graham #220 Mont Royal, Québec</span>
-                  </div>
                   <div class="mad-info">
                     <i><img src="../images/svg-icons/phone3.svg" alt="" class="svg" /></i>
                     <span><a target="_blank" href="tel:18339212783">+1 (833) 921-2783</a></span>

@@ -12,7 +12,7 @@
     <?php include("../includes/header.php");?>
 
     <!--================ Page Title ================-->
-    <div class="mad-breadcrumb with-bg-img light bg-alignright" data-bg-image-src="../images/banner-service-consultations.jpg">
+    <div class="mad-breadcrumb with-bg-img with-overlay light bg-alignright" data-bg-image-src="../images/banner-service-consultations.jpg">
       <div class="container wide">
         <div class="mad-pre-title">SERVICES</div>
         <h1 class="mad-page-title">Consultations</h1>
@@ -22,16 +22,6 @@
     <div class="mad-section medium-size bg-light-blue">
       <div class="container">
 
-                <?php /*
-                <div class="mad-title-wrap align-center">
-                      <p class="first-paragraph">Pour éviter un déplacement aux urgences de l'hôpital, vous pouvez consulter un médecin à la clinique SM PRIVÉ pour une urgence mineure.</p>
-
-                      <p>Tous les rendez-vous d'urgence mineure peuvent être pris le jour même. Nous garantissons une disponibilité en moins de 24 heures. Les services additionnels offerts pour les urgences mineures sont : sutures, drainage d'abcès, retrait de stérilet, etc.</p> 
-
-                      <p>Un reçu pour les assurances privées sera remis.</p>
-                </div>
-    
-                */ ?>
                 <div class="mad-entities align-center type-2 item-col-3 products">
 
                       <!--================ Product ================-->
@@ -86,7 +76,7 @@
                       <!--================ Product ================-->
                       <div class="mad-col wide-gaps">
                         <article class="mad-entity mad-pt-item">
-                          <h5 class="mad-pt-header">Examen Complet<br><br></h5>
+                          <h5 class="mad-pt-header">Examen Complet</h5>
                           <div class="mad-pt-content mad-entity-content">
                             <div class="mad-pt-price">
                               <span class="price">350<sup>.00</sup></span> <small>taxes incluses</small>
@@ -109,7 +99,7 @@
                       <!--================ Product ================-->
                       <div class="mad-col wide-gaps">
                         <article class="mad-entity mad-pt-item">
-                          <h5 class="mad-pt-header">Évaluation TDAH<br><br></h5>
+                          <h5 class="mad-pt-header">Évaluation TDAH</h5>
                           <div class="mad-pt-content mad-entity-content">
                             <div class="mad-pt-price">
                               <span class="price">350<sup>.00</sup></span> <small>taxes incluses</small>
