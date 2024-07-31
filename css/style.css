@@ -801,7 +801,7 @@ html.mad-theme-white:not(.style-2) .header-4 .logo>img:not(:nth-child(2)) {
     display: flex;
     align-items: center;
     line-height: 1rem;
-    padding: 0 .4rem;
+    padding: 0 .4rem .5rem;
 }
 
 .mad-navigation>li.menu-item-has-children:after {
